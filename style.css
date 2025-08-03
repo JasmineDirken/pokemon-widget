@@ -8,11 +8,11 @@
     --color-button-text: #9E0E2B;
     --color-message-text: #9E0E2B;
 
-    --image-path-background: url('pokemon-widget\assets\tumblr_mljg7ellB81qblktko3_250 (1).png');
-    --image-path-content: url('pokemon-widget\assets\animation\animation-1.png');
+    --image-path-background: url('assets/tumblr_mljg7ellB81qblktko3_250\ \(1\).png');
+    --image-path-content: url('./assets/animation/animation-1.png');
 
     --font-family-main: "Pixelify Sans", sans-serif;
-    --font-size-large: 1.75rem;
+    --font-size-large: 1.10rem;
     --font-size-medium: 1.5635rem;
 
     --border-radius: 0.31269rem;
@@ -32,8 +32,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--color-page-background) var(--image-path-background) bottom center no-repeat;
-    background-size: 100% auto;
+    background: var(--color-page-background) var(--image-path-background) bottom center repeat;
+    background-size: 25% auto;
 }
 
 h1 {

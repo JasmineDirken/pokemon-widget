@@ -1,8 +1,8 @@
 const images = [
-    'pokemon-widget\assets\animation\animation-1.png',
-    'pokemon-widget\assets\animation\animation-2.png',
-    'pokemon-widget\assets\animation\animation-3-fr.png',
-    'pokemon-widget\assets\animation\animation-4.png'
+    './assets/animation/animation-1.png',
+    './assets/animation/animation-2.png',
+    './assets/animation/animation-3-fr.png',
+    './assets/animation/animation-4.png'
 ];
 
 const imageContent = document.querySelector('.image-content');
