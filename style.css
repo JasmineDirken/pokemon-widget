@@ -1,24 +1,24 @@
 :root {
-    --color-page-background: #50AFC9;
-    --color-main-container-background: #FF5B70;
+    --color-page-background: #fff7f4;
+    --color-main-container-background: #7E2A53;
     --color-inner-container-background: #FFF7F4;
-    --color-border: #9E0E2B;
+    --color-border: #502A50;
     --color-button-background: #FFF;
     --color-heading-text: #FFF;
-    --color-button-text: #9E0E2B;
-    --color-message-text: #9E0E2B;
+    --color-button-text: #502A50;
+    --color-message-text: #502A50;
 
     --image-path-background: url('assets/tumblr_mljg7ellB81qblktko3_250\ \(1\).png');
     --image-path-content: url('assets/animation/animation-1.png');
 
     --font-family-main: "Pixelify Sans", sans-serif;
-    --font-size-large: 1.10rem;
+    --font-size-large: 1.35rem;
     --font-size-medium: 1.5635rem;
 
-    --border-radius: 0.31269rem;
+    --border-radius: 0.51269rem;
 
-    --border-width-main: 3px;
-    --border-width-inner: 3.413px;
+    --border-width-main: 4px;
+    --border-width-inner: 4px;
 
     --padding-container: 0.62538rem;
     --gap-icons: 0.375rem;
