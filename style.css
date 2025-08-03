@@ -9,7 +9,7 @@
     --color-message-text: #9E0E2B;
 
     --image-path-background: url('assets/tumblr_mljg7ellB81qblktko3_250\ \(1\).png');
-    --image-path-content: url('./assets/animation/animation-1.png');
+    --image-path-content: url('assets/animation/animation-1.png');
 
     --font-family-main: "Pixelify Sans", sans-serif;
     --font-size-large: 1.10rem;
@@ -91,15 +91,6 @@ header {
     display: flex;
     align-items: center;
     gap: var(--gap-icons);    
-}
-
-.shrink-button {
-    width: 24px;
-    height: 24px;
-    object-fit: cover;
-    border-radius: 2px;
-    opacity: 1;
-    transition: opacity 0.2s ease-in-out;    
 }
 
 .image-content {

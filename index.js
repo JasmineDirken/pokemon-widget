@@ -1,8 +1,8 @@
 const images = [
-    './assets/animation/animation-1.png',
-    './assets/animation/animation-2.png',
-    './assets/animation/animation-3-fr.png',
-    './assets/animation/animation-4.png'
+    'assets/animation/animation-1.png',
+    'assets/animation/animation-2.png',
+    'assets/animation/animation-3-fr.png',
+    'assets/animation/animation-4.png'
 ];
 
 const imageContent = document.querySelector('.image-content');
@@ -20,7 +20,7 @@ function updateImage() {
     img.onload = () => {
         imageContent.style.backgroundImage = `url('${images[currentIndex]}')`;
 
-        imageContent.Stle.opacity = 1;
+        imageContent.style.opacity = 1;
     };
 }
 
